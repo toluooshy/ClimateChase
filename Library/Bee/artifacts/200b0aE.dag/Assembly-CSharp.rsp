@@ -124,11 +124,6 @@
 -define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"/Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
--r:"/Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
--r:"/Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/iOSSupport/UnityEditor.Apple.Extensions.Common.dll"
--r:"/Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
--r:"/Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
 -r:"/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.AccessibilityModule.dll"
 -r:"/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.AdaptivePerformanceModule.dll"
 -r:"/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.BuildProfileModule.dll"
@@ -424,6 +419,7 @@
 "Assets/Scripts/AnimalController.cs"
 "Assets/Scripts/BagGenerator.cs"
 "Assets/Scripts/BaseGameController.cs"
+"Assets/Scripts/BladeController.cs"
 "Assets/Scripts/FireController.cs"
 "Assets/Scripts/FishController.cs"
 "Assets/Scripts/ForestFireGameController.cs"
@@ -437,6 +433,8 @@
 "Assets/Scripts/SavannaShadeGameController.cs"
 "Assets/Scripts/SceneChanger.cs"
 "Assets/Scripts/TimerController.cs"
+"Assets/Scripts/TouchTrackerController.cs"
+"Assets/Scripts/WindmillGameController.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"

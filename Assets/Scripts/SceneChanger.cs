@@ -10,7 +10,8 @@ public class SceneChanger : MonoBehaviour {
         "GlaciersScene",
         "SavannaShadeScene",
         "RiverScene",
-        "RecycleScene"
+        "RecycleScene",
+        "WindmillScene"
     };
 
     // Replay - load a random scene from the list
