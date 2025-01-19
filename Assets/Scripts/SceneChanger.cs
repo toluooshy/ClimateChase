@@ -11,6 +11,7 @@ public class SceneChanger : MonoBehaviour {
         "SavannaShadeScene",
         "RiverScene",
         "RecycleScene",
+        "ClutterScene",
         "SolarScene"
     }; 
    
