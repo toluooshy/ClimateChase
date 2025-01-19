@@ -18,6 +18,8 @@ public class BaseGameController : MonoBehaviour {
         "SavannaShadeScene",
         "RiverScene",
         "RecycleScene",
-        "WindmillScene"
+        "WindmillScene",
+        "ClutterScene",
+        "SolarScene"
     };
 }

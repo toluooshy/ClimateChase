@@ -534,7 +534,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 9164271339043265453, guid: 154e4b7a365244a79975ddd1a2f641d6, type: 3}
+      - m_Target: {fileID: 7789181592599628819, guid: 154e4b7a365244a79975ddd1a2f641d6, type: 3}
         m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
         m_MethodName: Replay
         m_Mode: 1
@@ -543,7 +543,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: SceneChanger.
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &721910591

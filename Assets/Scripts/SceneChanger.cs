@@ -5,14 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour {
     // List of scene names for random loading
-    private string[] scenes = new string[] {
+   private string[] scenes = new string[] {
         "ForestFireScene",
         "GlaciersScene",
         "SavannaShadeScene",
         "RiverScene",
         "RecycleScene",
-        "WindmillScene"
-    };
+        "WindmillScene",
+        "ClutterScene",
+        "SolarScene"
+    }; 
+   
 
     // Replay - load a random scene from the list
     public void Replay() {
