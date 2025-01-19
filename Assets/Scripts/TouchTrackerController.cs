@@ -8,8 +8,6 @@ public class TouchTrackerController : MonoBehaviour
     private float zDistance;
     // Track if the object is being dragged
     private bool isBeingDragged = false;
-    private float oldy;
-    private float newy;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
