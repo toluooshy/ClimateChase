@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+Base path: '/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents', plugins path '/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/PlaybackEngines'
+=======
 Base path: '/Applications/Unity/Hub/Editor/6000.0.34f1-x86_64/Unity.app/Contents', plugins path '/Applications/Unity/Hub/Editor/6000.0.34f1-x86_64/Unity.app/Contents/PlaybackEngines'
+>>>>>>> main
 Cmd: initializeCompiler
 
 Cmd: initializeCompiler
