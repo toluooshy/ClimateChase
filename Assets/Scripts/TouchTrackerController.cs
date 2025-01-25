@@ -17,15 +17,11 @@ public class TouchTrackerController : MonoBehaviour
     }
 
     void Update() {
-        float diff = GameController.GetComponent<WindmillGameController>().curry - transform.position.y;
-        if(diff < 0){
-            diff = -diff;
+        if (GameController.GetComponent<WindmillGameController>().velocity > 0) {
+            GameController.GetComponent<WindmillGameController>().velocity -= .0025f;
+        } else {
+            GameController.GetComponent<WindmillGameController>().velocity = 0;
         }
-        if (diff != 0){
-            GameController.GetComponent<WindmillGameController>().distance += diff;
-        }
-
-        GameController.GetComponent<WindmillGameController>().curry = transform.position.y;
         
         // Clamp x position to prevent moving outside bounds
         if (transform.position.x >= 2.5f) {
@@ -60,6 +56,13 @@ public class TouchTrackerController : MonoBehaviour
         // Update the object's position based on the mouse's current position.
         if (isBeingDragged) {
             transform.position = GetMouseWorldPosition() + offset;
+            float diff = GameController.GetComponent<WindmillGameController>().currentY - transform.position.y;
+            if(diff < 0){
+                diff = -diff;
+            }
+            if (diff != 0){
+                GameController.GetComponent<WindmillGameController>().velocity += diff/10;
+            }
         }
     }
 

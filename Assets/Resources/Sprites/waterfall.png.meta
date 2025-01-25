@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 23b10f83324834cba91e50b93bd6d118
+guid: 9bdc9c838844441a68cf235ccbd51f93
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -142,10 +142,10 @@ TextureImporter:
       name: waterfall_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 162
-        height: 87
+        x: 4
+        y: 11
+        width: 844
+        height: 591
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

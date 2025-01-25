@@ -19,6 +19,6 @@ public class TimerController : MonoBehaviour {
         float remainingTime = GameController.GetComponent<BaseGameController>().remainingTime;
 
         // Adjust the TimerBar's RectTransform to scale the width
-        Bar.GetComponent<RectTransform>().offsetMax = new Vector2(1055f * remainingTime/ totalTime, 40f); // Shrink the width
+        Bar.GetComponent<RectTransform>().offsetMax = new Vector2(940f * remainingTime/ totalTime, 40f); // Shrink the width
     }
 }

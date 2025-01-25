@@ -12,6 +12,6 @@ public class BladeController : MonoBehaviour
 
     void Update() {
         float zdegree = GameController.GetComponent<WindmillGameController>().distance;
-        transform.rotation = Quaternion.Euler(0,0,zdegree * -10);
+        transform.rotation = Quaternion.Euler(0,0,zdegree * -4);
     }
 }

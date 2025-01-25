@@ -1,14 +1,27 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class RiverGameController : BaseGameController {
     
     public int numBags;
     public bool goalReached;
-    
+    public TextMeshProUGUI RunningScoreAText;
+    public TextMeshProUGUI RunningScoreBText;
+    public TextMeshProUGUI HighScoreText;  
+
     // Start is called before the first frame update
     void Start() {
+        RunningScoreAText = RunningScoreA.GetComponent<TextMeshProUGUI>();
+        RunningScoreBText= RunningScoreB.GetComponent<TextMeshProUGUI>();
+        HighScoreText = HighScore.GetComponent<TextMeshProUGUI>();
+        introTime = PlayerPrefs.GetFloat("IntroTime", 1.5f);
+        totalTime = PlayerPrefs.GetFloat("TotalTime", 9f);
+        remainingTime = PlayerPrefs.GetFloat("TotalTime", 9f);
+        score = PlayerPrefs.GetInt("RunningScore", 0);
+        RunningScoreAText.text = score.ToString();
+
         ActiveDisplay.GetComponent<Canvas>().enabled = true;
         GameoverDisplay.GetComponent<Canvas>().enabled = false;
         startTime = Time.time;
@@ -29,8 +42,15 @@ public class RiverGameController : BaseGameController {
 
             if (remainingTime <= 0) {
                 isOver = true;  // The game ends when remainingTime reaches 0
+                int highscore = PlayerPrefs.GetInt("HighScore", 0);
+                if (score > highscore) {
+                    highscore = score;
+                    PlayerPrefs.SetInt("HighScore", score);
+                }
                 ActiveDisplay.GetComponent<Canvas>().enabled = false;
                 GameoverDisplay.GetComponent<Canvas>().enabled = true;
+                RunningScoreBText.text = score.ToString();
+                HighScoreText.text = highscore.ToString();
             }
         }
 
@@ -39,6 +59,9 @@ public class RiverGameController : BaseGameController {
             // If the game has been completed
             if (goalReached) {
                 string randomScene = scenes[UnityEngine.Random.Range(0, scenes.Length)];
+                PlayerPrefs.SetInt("RunningScore", score + 1);
+                PlayerPrefs.SetFloat("IntroTime", introTime - .005f);
+                PlayerPrefs.SetFloat("TotalTime", totalTime - .0075f);
                 SceneManager.LoadScene(randomScene);
             }
         }

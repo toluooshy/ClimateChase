@@ -21,6 +21,10 @@ public class SceneChanger : MonoBehaviour {
     public void Replay() {
         // Pick a random scene from the list and load it
         string randomScene = scenes[UnityEngine.Random.Range(0, scenes.Length)];
+        PlayerPrefs.SetInt("RunningScore", 0);
+        PlayerPrefs.SetFloat("IntroTime", 1.5f);
+        PlayerPrefs.SetFloat("TotalTime", 9f);
+        PlayerPrefs.SetFloat("RemainingTime", 9f);
         SceneManager.LoadScene(randomScene);
     }
 

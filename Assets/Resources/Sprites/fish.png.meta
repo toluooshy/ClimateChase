@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 01b2608c185504ab0897e9286bcd7ffb
+guid: 77d05b22ad7e640028f666bdaa69f911
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -142,10 +142,10 @@ TextureImporter:
       name: fish_0
       rect:
         serializedVersion: 2
-        x: 30
-        y: 156
-        width: 750
-        height: 230
+        x: 1
+        y: 3
+        width: 167
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

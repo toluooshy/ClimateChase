@@ -27,6 +27,6 @@ public class RaindropGenerator : MonoBehaviour {
     void SpawnItem(GameObject Item) {
         float X = UnityEngine.Random.Range(-1.5f, 1.5f);
 
-        Instantiate(Item, new Vector3(X, 2.75f, 0), transform.rotation);
+        Instantiate(Item, new Vector3(X, 2.75f, -2), transform.rotation);
     }
 }
