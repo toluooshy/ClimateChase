@@ -28,6 +28,20 @@ extern void BatteryBarController__ctor_mA04B029FA2A2D46318DC6A97DB23229F14C28D16
 extern void BladeController_Start_m4C45A62F000B7AB7C758570E98E5A5DE70B36ED6 (void);
 extern void BladeController_Update_m312EC970F52FE1D4140E43BEA9472D88A010E778 (void);
 extern void BladeController__ctor_m0479F03D0C343AE30C4A2BC7B0E686AFEAD2AB49 (void);
+extern void BugController_Start_m52962857CBA732C83ED0513DE230520AE68CB18B (void);
+extern void BugController_OnMouseDown_m7124B2A6ED0D4AB619292727C6E7DA3BAE6B6B61 (void);
+extern void BugController__ctor_m63B302C061AB8958B14F0481CD6F60F44A24FBFD (void);
+extern void CaptureGameController_Start_m57A2D32F40837DE66E16C9BF265C4DADAF3BCEB6 (void);
+extern void CaptureGameController_StartGameAfterDelay_m862997DB5A255629098D61AE00ABA5406236B0DC (void);
+extern void CaptureGameController_Update_m0D997E2AA5552CCA71C4F3190D1CD416DB80948C (void);
+extern void CaptureGameController_SpawnItem_m15BB2A7C6B80F2602CACF29E9781F5C9E389E36B (void);
+extern void CaptureGameController__ctor_m1C70ADE3DF8D800D0C93C3EF485D5723BA329C2D (void);
+extern void U3CStartGameAfterDelayU3Ed__7__ctor_mB40BBD929A589EDD26B8AC41EADA0A58EAD6BD0A (void);
+extern void U3CStartGameAfterDelayU3Ed__7_System_IDisposable_Dispose_m8CDE19D723955B1C76B2EB0BE68FF8368882A6FA (void);
+extern void U3CStartGameAfterDelayU3Ed__7_MoveNext_m35962E63FBA3A46011BFC15808F92F2724A86E4C (void);
+extern void U3CStartGameAfterDelayU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mED811D10C9E0D180EB7E90D4D9DE9BD07D93EE57 (void);
+extern void U3CStartGameAfterDelayU3Ed__7_System_Collections_IEnumerator_Reset_mFAD45D960C0D0EDEBBF436EFD6395F4A41A0ED07 (void);
+extern void U3CStartGameAfterDelayU3Ed__7_System_Collections_IEnumerator_get_Current_mA15B36DCA3467A1B6FA929E9E6C555E4DD0770DC (void);
 extern void ClothController_Start_m3FF8CCCDA2774CBA07807BD6AC2E1C2ED9186240 (void);
 extern void ClothController_Update_m3BF8CE50F75BBA209BBBD5F3F1F7ADFBDF811E22 (void);
 extern void ClothController_OnMouseDown_m863DA694BD9CAFFCC05976EB812E9777E875893F (void);
@@ -469,7 +483,7 @@ extern void U3CWarpTextU3Ed__8_MoveNext_mCE7A826C5E4854C2C509C77BD18F5A9B6D691B0
 extern void U3CWarpTextU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD80368E9B7E259311C03E406B75161ED6F7618E3 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19 (void);
-static Il2CppMethodPointer s_methodPointers[462] = 
+static Il2CppMethodPointer s_methodPointers[476] = 
 {
 	AnimalController_Start_m45E4D67B8E6506D53DC501BAA577AE3D5791E344,
 	AnimalController_Update_m62C7689BD90ACCA0A46ACC42F3B01A198FE387E3,
@@ -492,6 +506,20 @@ static Il2CppMethodPointer s_methodPointers[462] =
 	BladeController_Start_m4C45A62F000B7AB7C758570E98E5A5DE70B36ED6,
 	BladeController_Update_m312EC970F52FE1D4140E43BEA9472D88A010E778,
 	BladeController__ctor_m0479F03D0C343AE30C4A2BC7B0E686AFEAD2AB49,
+	BugController_Start_m52962857CBA732C83ED0513DE230520AE68CB18B,
+	BugController_OnMouseDown_m7124B2A6ED0D4AB619292727C6E7DA3BAE6B6B61,
+	BugController__ctor_m63B302C061AB8958B14F0481CD6F60F44A24FBFD,
+	CaptureGameController_Start_m57A2D32F40837DE66E16C9BF265C4DADAF3BCEB6,
+	CaptureGameController_StartGameAfterDelay_m862997DB5A255629098D61AE00ABA5406236B0DC,
+	CaptureGameController_Update_m0D997E2AA5552CCA71C4F3190D1CD416DB80948C,
+	CaptureGameController_SpawnItem_m15BB2A7C6B80F2602CACF29E9781F5C9E389E36B,
+	CaptureGameController__ctor_m1C70ADE3DF8D800D0C93C3EF485D5723BA329C2D,
+	U3CStartGameAfterDelayU3Ed__7__ctor_mB40BBD929A589EDD26B8AC41EADA0A58EAD6BD0A,
+	U3CStartGameAfterDelayU3Ed__7_System_IDisposable_Dispose_m8CDE19D723955B1C76B2EB0BE68FF8368882A6FA,
+	U3CStartGameAfterDelayU3Ed__7_MoveNext_m35962E63FBA3A46011BFC15808F92F2724A86E4C,
+	U3CStartGameAfterDelayU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mED811D10C9E0D180EB7E90D4D9DE9BD07D93EE57,
+	U3CStartGameAfterDelayU3Ed__7_System_Collections_IEnumerator_Reset_mFAD45D960C0D0EDEBBF436EFD6395F4A41A0ED07,
+	U3CStartGameAfterDelayU3Ed__7_System_Collections_IEnumerator_get_Current_mA15B36DCA3467A1B6FA929E9E6C555E4DD0770DC,
 	ClothController_Start_m3FF8CCCDA2774CBA07807BD6AC2E1C2ED9186240,
 	ClothController_Update_m3BF8CE50F75BBA209BBBD5F3F1F7ADFBDF811E22,
 	ClothController_OnMouseDown_m863DA694BD9CAFFCC05976EB812E9777E875893F,
@@ -934,7 +962,7 @@ static Il2CppMethodPointer s_methodPointers[462] =
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42,
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19,
 };
-static const int32_t s_InvokerIndices[462] = 
+static const int32_t s_InvokerIndices[476] = 
 {
 	8789,
 	8789,
@@ -957,6 +985,20 @@ static const int32_t s_InvokerIndices[462] =
 	8789,
 	8789,
 	8789,
+	8789,
+	8789,
+	8789,
+	8789,
+	5966,
+	8789,
+	6927,
+	8789,
+	6880,
+	8789,
+	8510,
+	8641,
+	8789,
+	8641,
 	8789,
 	8789,
 	8789,
@@ -1403,7 +1445,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	462,
+	476,
 	s_methodPointers,
 	0,
 	NULL,

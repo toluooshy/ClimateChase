@@ -422,8 +422,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 417.5, y: -432.44183}
-  m_SizeDelta: {x: 792.5072, y: 864.9434}
+  m_AnchoredPosition: {x: 417.5, y: -600}
+  m_SizeDelta: {x: 792.5072, y: 1200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &34504241
 MonoBehaviour:
@@ -478,15 +478,23 @@ MonoBehaviour:
     Tolulope Oshinowo
 
 
-    Project
-    Lead:
+    Graphics
+    + Art:
+
+    Tolulope Oshinowo
+
+
+    Project Lead:
 
     Tolulope Oshinowo
 
 
     Music:
 
-    Venny - Sour Haribos'
+    "Pookatori
+    And Friends"
+
+    by Kevin MacLeod'
 --- !u!114 &34504242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -582,16 +590,17 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: '
 
-    Our mission is to inspire positive change through interactive gameplay.
-    In this mobile game, players will engage in time-management challenges that promote
-    sustainability by completing tasks like sorting recyclables and restoring ecosystems.
-    By incorporating intuitive controls like shaking, tilting, and microphone use,
-    we create an immersive experience that encourages real-world environmental action.
+    Join in on an effort that not only entertains, but also educates
+    and empowers players to make a positive tangible impact on the planet!
 
 
-    Join
-    in on a gaming experience that not only entertains but also educates and empowers
-    players to make a tangible impact on the planet!'
+    In
+    ''Climate Chase!'', players engage in 9 different challenges all focused around
+    promoting sustainability. Through the incorporation of novel game mechanics like
+    shaking, tilting, and even microphone use, we aim to offer an immersive experience
+    that can, in turn, inspire real world environmental action.
+
+'
 --- !u!114 &88785820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1013,7 +1022,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1286,7 +1295,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7789181592599628819, guid: 154e4b7a365244a79975ddd1a2f641d6, type: 3}
+      - m_Target: {fileID: 7621350130812873280, guid: 154e4b7a365244a79975ddd1a2f641d6, type: 3}
         m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
         m_MethodName: Replay
         m_Mode: 1
@@ -1885,7 +1894,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Jukebox: {fileID: 1243582251}
   src: {fileID: 447819450}
-  song1: {fileID: 8300000, guid: 22bb15ec2698c4e1fb5d3d3bad43df69, type: 3}
+  song1: {fileID: 8300000, guid: 398555091e5d74ef99d9283d6d184f9c, type: 3}
 --- !u!1 &1301459991
 GameObject:
   m_ObjectHideFlags: 0
@@ -2580,8 +2589,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 417.5, y: -3399}
-  m_SizeDelta: {x: 792.5072, y: 6758}
+  m_AnchoredPosition: {x: 417.5, y: -3600}
+  m_SizeDelta: {x: 792, y: 7200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2009999634
 MonoBehaviour:
@@ -2616,37 +2625,41 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\nThe objective of this game is to complete a series of tasks before time
-    runs out. Each task references real-world environmental topics, and   Ready to
-    make a difference? Let\u2019s get started!\n\n1. Sort the Recyclables\nDrag and
-    drop items into the correct recycling bins. This mini-game helps reinforce the
-    importance of proper waste sorting to reduce landfill waste and promote recycling.
-    Make sure you know which materials belong in paper, plastic, and compost bins!\n\n2.
-    Re-freeze the Glacier\nBlow into your device\u2019s microphone to restore frigid
-    temperatures and save the glacier. This task highlights the effects of global
-    warming on polar ice caps and encourages awareness about the need for climate
-    action to protect vulnerable ecosystems.\n\n3. Put Out the Forest Fire\nShake
-    your device to help the storm cloud pour rain and extinguish the fire. Wildfires
-    are a growing environmental threat, and this game reminds us of the importance
-    of preventing fires and protecting forests from destruction.\n\n4. Provide Shade\nCover
-    your device\u2019s camera to shield the elephant from the heatwave. This mini-game
-    is about the need for shade in hot climates, where animals and people alike rely
-    on cooler environments to survive, especially as temperatures rise due to climate
-    change.\n\n5. Avoid the Pollution\nTilt your device to guide the salmon away
-    from harmful pollution and towards a clean, clear waterfall. Pollution in our
-    rivers and oceans can have devastating effects on aquatic life, and this mini-game
-    highlights the importance of keeping our waterways clean and safe for wildlife.\n\n6.
-    Clean the Solar Panels\nUse the onscreen cloth to wipe away dirt and debris from
-    the solar panels. Clean solar panels are more efficient at generating energy,
-    and this task shows how keeping renewable energy sources in good condition helps
-    promote a sustainable future.\n\n7. Recover the Bean Sprout\nDrag away clutter
-    to find the lost bean sprout. This mini-game represents the delicate balance
-    of nature and the importance of preserving plant life. It\u2019s a reminder that
-    sometimes, a small change can have a big impact on growth and renewal.\n\n8.
-    Power the Wind Turbine\nSwipe quickly to spin the blades of the wind turbine
-    and generate clean energy. This mini-game shows how wind power can contribute
-    to a cleaner, greener world by harnessing the power of nature to create sustainable
-    electricity.\n\n"
+  m_Text: "\nThe objective of this game is to complete as many mini-game tasks before
+    time runs out each round. Every task references real world environmental topics
+    from all over globe, making for a fun but powerful conversation starter. Ready
+    to help make a difference? Let\u2019s get moving!\n\nMINI-GAME OBJECTIVES:\n\n1.
+    Sort the Recyclables!\nDrag and drop items into the correct recycling bins. This
+    mini-game helps reinforce the importance of proper waste sorting to reduce landfill
+    waste and promote recycling. Make sure you know which materials belong in paper,
+    plastic, and compost bins!\n\n2. Re-freeze the Glacier!\nBlow into your device\u2019s
+    microphone to restore frigid temperatures and save the glacier. This task highlights
+    the effects of global warming on polar ice caps and encourages awareness about
+    the need for climate action to protect vulnerable ecosystems.\n\n3. Put Out the
+    Forest Fire!\nShake your device to help the storm cloud pour rain and extinguish
+    the fire. Wildfires are a growing environmental threat, and this game reminds
+    us of the importance of preventing fires and protecting forests from destruction.\n\n4.
+    Provide Shade!\nCover your device\u2019s camera to shield the elephant from the
+    heatwave. This mini-game is about the need for shade in hot climates, where animals
+    and people alike rely on cooler environments to survive, especially as temperatures
+    rise due to climate change.\n\n5. Avoid the Pollution!\nTilt your device to guide
+    the salmon away from harmful pollution and towards a clean, clear waterfall.
+    Pollution in our rivers and oceans can have devastating effects on aquatic life,
+    and this mini-game highlights the importance of keeping our waterways clean and
+    safe for wildlife.\n\n6. Clean the Solar Panels!\nUse the onscreen cloth to wipe
+    away dirt and debris from the solar panels. Clean solar panels are more efficient
+    at generating energy, and this task shows how keeping renewable energy sources
+    in good condition helps promote a sustainable future.\n\n7. Recover the Bean
+    Sprout!\nDrag away clutter to find the lost bean sprout. This mini-game represents
+    the delicate balance of nature and the importance of preserving plant life. It\u2019s
+    a reminder that sometimes, a small change can have a big impact on growth and
+    renewal.\n\n8. Power the Wind Turbine!\nSwipe quickly to spin the blades of the
+    wind turbine and generate clean energy. This mini-game shows how wind power can
+    contribute to a cleaner, greener world by harnessing the power of nature to create
+    sustainable electricity.\n\n9. Catch the Invaders!\nTap quickly to capture all
+    the Spotted Lanternflies. This mini-game raises awareness about invasive species
+    that harm local ecosystems. By controlling their spread, we help protect native
+    plants and animals from serious ecological damage."
 --- !u!114 &2009999635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2708,7 +2721,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 37, y: 0}
-  m_SizeDelta: {x: -74, y: 3660.6377}
+  m_SizeDelta: {x: -74, y: 4250}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2015571672
 MonoBehaviour:

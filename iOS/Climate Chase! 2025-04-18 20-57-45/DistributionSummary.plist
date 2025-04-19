@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ClimateChase.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>0</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>26F6F9520BC78D91B32322CCB94C6E3FF9B53E4E</string>
+				<key>dateExpires</key>
+				<string>11/7/25</string>
+				<key>type</key>
+				<string>Cloud Managed Apple Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1.0</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>26F6F9520BC78D91B32322CCB94C6E3FF9B53E4E</string>
+						<key>dateExpires</key>
+						<string>11/7/25</string>
+						<key>type</key>
+						<string>Cloud Managed Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>UnityFramework.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>L9UD9A4Z62</string>
+						<key>name</key>
+						<string>Tolulope Oshinowo</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>L9UD9A4Z62.co.yutes.climatechase</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>L9UD9A4Z62</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>ClimateChase.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>0a29be37-92b7-451c-be00-eab58ee2a4fb</string>
+				<key>dateExpires</key>
+				<string>11/7/25</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: co.yutes.climatechase</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>L9UD9A4Z62</string>
+				<key>name</key>
+				<string>Tolulope Oshinowo</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

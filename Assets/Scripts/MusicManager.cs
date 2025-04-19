@@ -51,7 +51,7 @@ public class MusicManager : MonoBehaviour
                 src.loop = true;
                 src.Play();
             }
-            src.volume = 1f;  // Ensure the volume is back to normal
+            src.volume = .5f;  // Ensure the volume is back to normal
         } 
         else {
             // Music is muted, stop the music and set the volume to 0

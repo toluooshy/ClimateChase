@@ -32,5 +32,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WindmillScene.unity
     guid: 51818cda3077a49a5b70239e8ef04dc7
+  - enabled: 1
+    path: Assets/Scenes/CaptureScene.unity
+    guid: 3700050c7c9f74726ba2ee35b24825f1
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

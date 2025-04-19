@@ -1144,12 +1144,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -8432931064371823225, guid: aa2d81b9504de4b04ac143f176fffe09, type: 3}
+  m_Sprite: {fileID: -1907045912131586258, guid: 1f64ff070e51147f0bdda22f09e126ec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 13, y: 9.62}
+  m_Size: {x: 25, y: 15.893555}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1265,7 +1265,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7789181592599628819, guid: 154e4b7a365244a79975ddd1a2f641d6, type: 3}
+      - m_Target: {fileID: 7621350130812873280, guid: 154e4b7a365244a79975ddd1a2f641d6, type: 3}
         m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
         m_MethodName: LoadMenu
         m_Mode: 1
@@ -1473,7 +1473,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7789181592599628819, guid: 154e4b7a365244a79975ddd1a2f641d6, type: 3}
+      - m_Target: {fileID: 7621350130812873280, guid: 154e4b7a365244a79975ddd1a2f641d6, type: 3}
         m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
         m_MethodName: Replay
         m_Mode: 1
@@ -1896,7 +1896,7 @@ MonoBehaviour:
   RunningScoreB: {fileID: 732663377}
   HighScore: {fileID: 357302472}
   isStarted: 0
-  isCompleted: 0
+  isCompleted: 1
   isOver: 0
   introTime: 1
   totalTime: 8
@@ -1912,6 +1912,7 @@ MonoBehaviour:
   - WindmillScene
   - ClutterScene
   - SolarScene
+  - CaptureScene
   Obstacle: {fileID: 3651168183293091109, guid: 1d9a57368a10b4a1c95ee2f8be064be4, type: 3}
   Torecycle: {fileID: 8597249388955171094, guid: 5f3655e48a3cc4c2982a45a8b4c2fc5b, type: 3}
   torecycleItems: 1

@@ -201,7 +201,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7789181592599628819, guid: 154e4b7a365244a79975ddd1a2f641d6, type: 3}
+      - m_Target: {fileID: 7621350130812873280, guid: 154e4b7a365244a79975ddd1a2f641d6, type: 3}
         m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
         m_MethodName: Replay
         m_Mode: 1
@@ -1116,7 +1116,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7789181592599628819, guid: 154e4b7a365244a79975ddd1a2f641d6, type: 3}
+      - m_Target: {fileID: 7621350130812873280, guid: 154e4b7a365244a79975ddd1a2f641d6, type: 3}
         m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
         m_MethodName: LoadMenu
         m_Mode: 1
@@ -2188,6 +2188,7 @@ MonoBehaviour:
   - WindmillScene
   - ClutterScene
   - SolarScene
+  - CaptureScene
   soundThreshold: 0.225
   soundMagnitude: 0
   RunningScoreAText: {fileID: 0}

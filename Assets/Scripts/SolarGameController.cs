@@ -18,7 +18,7 @@ public class SolarGameController : BaseGameController {
     // Start is called before the first frame update
     void Start() {
         RunningScoreAText = RunningScoreA.GetComponent<TextMeshProUGUI>();
-        RunningScoreBText= RunningScoreB.GetComponent<TextMeshProUGUI>();
+        RunningScoreBText = RunningScoreB.GetComponent<TextMeshProUGUI>();
         HighScoreText = HighScore.GetComponent<TextMeshProUGUI>();
         introTime = PlayerPrefs.GetFloat("IntroTime", 1.5f);
         totalTime = PlayerPrefs.GetFloat("TotalTime", 9f);
@@ -31,15 +31,14 @@ public class SolarGameController : BaseGameController {
         startTime = Time.time;
         StartCoroutine(StartGameAfterDelay(introTime));  // Start the coroutine to wait for introTime seconds
        
-
+        // Create a loop to instantiate the dirts based on how many there are to clean, and instantiate each
         for(int i = 0; i < dirtTotal; i++)
         {
             SpawnItem(Dirt);
         }
-         Instantiate(Cloth, new Vector3(0f, 0f, -1f), transform.rotation);
-       // create a loop to instantiate the dirts based on how many there are to clean, and instantiate each
         // instantiate one washcloth
-
+        Instantiate(Cloth, new Vector3(0f, 0f, -1f), transform.rotation);
+        
     }
 
     // Coroutine to wait for introTime seconds before starting the game

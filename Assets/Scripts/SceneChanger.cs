@@ -13,7 +13,8 @@ public class SceneChanger : MonoBehaviour {
         "RecycleScene",
         "WindmillScene",
         "ClutterScene",
-        "SolarScene"
+        "SolarScene",
+        "CaptureScene"
     }; 
    
 

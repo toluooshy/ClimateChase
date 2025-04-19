@@ -24,6 +24,7 @@ public class BaseGameController : MonoBehaviour {
         "RecycleScene",
         "WindmillScene",
         "ClutterScene",
-        "SolarScene"
+        "SolarScene",
+        "CaptureScene"
     };
 }

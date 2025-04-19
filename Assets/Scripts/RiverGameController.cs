@@ -14,7 +14,7 @@ public class RiverGameController : BaseGameController {
     // Start is called before the first frame update
     void Start() {
         RunningScoreAText = RunningScoreA.GetComponent<TextMeshProUGUI>();
-        RunningScoreBText= RunningScoreB.GetComponent<TextMeshProUGUI>();
+        RunningScoreBText = RunningScoreB.GetComponent<TextMeshProUGUI>();
         HighScoreText = HighScore.GetComponent<TextMeshProUGUI>();
         introTime = PlayerPrefs.GetFloat("IntroTime", 1.5f);
         totalTime = PlayerPrefs.GetFloat("TotalTime", 9f);
